@@ -43,7 +43,7 @@ def run():
         license="MIT",
         author="Steve Fortune",
         maintainer_email="jlawhead@geospatialpython.com",
-        packages=[],
+         py_modules=["voronoi"],
         long_description=DESCRIPTION,
         download_url=
             "https://github.com/GeospatialPython/voronoi-py3/archive/master.zip",
