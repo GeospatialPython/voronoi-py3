@@ -36,14 +36,14 @@ Steve Fortune's homepage: http://netlib.bell-labs.com/cm/cs/who/sjf/index.html
 """
 
 def run():
-    setup(name="voronoi-py3",
+    setup(name="voronoi",
         version="1.0",
         description="Calculate Delaunay triangulation or the Voronoi polygons for a set of 2D input points",
         url="https://github.com/GeospatialPython/voronoi-py3/",
         license="MIT",
         author="Steve Fortune",
         maintainer_email="jlawhead@geospatialpython.com",
-        packages=["voronoi-py3"],
+        packages=[],
         long_description=DESCRIPTION,
         download_url=
             "https://github.com/GeospatialPython/voronoi-py3/archive/master.zip",
